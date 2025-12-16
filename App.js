@@ -6,6 +6,7 @@ import MainScreen from "./screens/MainScreen";
 import ExerciseScreen from "./screens/ExerciseScreen";
 import ListScreen from "./screens/ListScreen";
 
+
 const Stack = createStackNavigator();
 
 export default function App() {
