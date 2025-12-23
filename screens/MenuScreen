@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, StyleSheet, View, Button } from "react-native";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const MenuScreen = () => {
     console.log(props.navigation);
@@ -8,6 +8,21 @@ const MenuScreen = () => {
             <Text style = {styles.text}>Welcome to menu screen</Text>
             <Button title="Go to List Screen"
             onPress={() => props.navigation.navigate("List")}/>
+
+            <TouchableOpacity 
+            style={styles.button}
+            onPress={() => props.navigation.navigate("Exercise")}/>
+
+            <Text style = {styles.text}>Go to Exercise screen</Text>
+
+            <TouchableOpacity 
+            style={styles.button}
+            onPress={() => props.navigation.navigate("Name")}/>
+
+            <Text style = {styles.text}>Go to Name screen</Text>
+
+
+
         </View>
     );
 };
@@ -17,6 +32,16 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 20,
         marginVertical: 20,
+    },
+       button:{
+        backgroundColorL:"Yellow",
+        marginVertical: 15,
+        borderRadius: 9,
+        marginHorizontal: 20,
+        paddingVertical: 20,
+        paddingHorizontal: 25,
+        width: "85%",
+        alignItems: "center"
     },
 });
 
