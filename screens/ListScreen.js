@@ -28,7 +28,7 @@ const ListScreen = (props) => {
         }}
       />
       <Button 
-      title="Go back" onPress={() => props.navigation.navigate("List")}/>
+     title="Go back" onPress={() => props.navigation.goBack()} />
     </View>
   );
 };

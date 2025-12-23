@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet, View} from 'react-native';
+import { Text, StyleSheet, View, Button} from 'react-native';
 
 const NameScreen = () => {
 
@@ -15,6 +15,9 @@ const NameScreen = () => {
           <Text style={styles.text}>Last Name: {lastName}</Text> 
           <Text style={styles.text}>Birthday: {birthday}</Text> 
           <Text style={styles.text}>Age: {age}</Text> 
+
+          <Button 
+               title="Go back" onPress={() => props.navigation.goBack()} />
         </View>
       );
 };

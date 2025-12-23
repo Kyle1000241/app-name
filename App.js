@@ -3,7 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import MainScreen from "./screens/MainScreen";
-import ExerciseScreen from "./screens/ExerciseScreen";
+import ExerciseScreen from "./screens/ExerciseScreen.js";
 import ListScreen from "./screens/ListScreen";
 import ButtonScreen from "./screens/ButtonScreen";
 import MenuScreen from "./screens/MenuScreen";
@@ -15,8 +15,12 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
-         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
-        <Stack.Screen name="Home" component={ButtonScreen}></Stack.Screen>
+        <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
+        <Stack.Screen
+          name="Excercise"
+          component={ExcerciseScreen}
+        ></Stack.Screen>
+        <Stack.Screen name="Home" component={MenuScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
