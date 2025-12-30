@@ -12,7 +12,7 @@ const MenuScreen = () => {
             <Button
             style={styles.btn}
             title="Go to Students Screen"
-             onPress={() => props.navigation.navigate("Student")}/>
+             onPress={() => props.navigation.navigate("Students")}/>
 
 
 
