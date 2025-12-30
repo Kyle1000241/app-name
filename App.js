@@ -22,7 +22,9 @@ export default function App() {
           component={ExcerciseScreen}
         ></Stack.Screen>
         <Stack.Screen name="Home" component={MenuScreen}></Stack.Screen>
+        <Stack.Screen name="Students" component={StudentsScreen} />
       </Stack.Navigator>
+
     </NavigationContainer>
   );
 }
