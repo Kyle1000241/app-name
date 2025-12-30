@@ -2,11 +2,12 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import MainScreen from "./screens/MainScreen";
+import MainScreen from "./screens/MainScreen.js/index.js";
 import ExerciseScreen from "./screens/ExerciseScreen.js";
 import ListScreen from "./screens/ListScreen";
 import ButtonScreen from "./screens/ButtonScreen";
 import MenuScreen from "./screens/MenuScreen";
+import StudentsScreen from "./screens/StudentsScreen.js";
 
 const Stack = createStackNavigator();
 
