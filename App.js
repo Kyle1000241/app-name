@@ -23,7 +23,9 @@ export default function App() {
         ></Stack.Screen>
         <Stack.Screen name="Home" component={MenuScreen}></Stack.Screen>
         <Stack.Screen name="Students" component={StudentsScreen} />
-         <Stack.Screen name="Box" component={BoxScreen} />
+        <Stack.Screen name="Box" component={BoxScreen} />
+        <Stack.Screen name="Box2" component={BoxScreen2} />
+
       </Stack.Navigator>
 
     </NavigationContainer>
