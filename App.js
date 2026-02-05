@@ -25,6 +25,9 @@ export default function App() {
         <Stack.Screen name="Students" component={StudentsScreen} />
         <Stack.Screen name="Box" component={BoxScreen} />
         <Stack.Screen name="Box2" component={BoxScreen2} />
+        <Stack.Screen name="Posts" component={PostsScreen} />
+        <Stack.Screen name="Users" component={UsersScreen} />
+
 
       </Stack.Navigator>
 

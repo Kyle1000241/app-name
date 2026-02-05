@@ -26,6 +26,16 @@ const MenuScreen = (props) => {
         title="Go to Box Screen 2"
         onPress={() => props.navigation.navigate("Box2")}
       />
+      <Button
+        style={styles.btn}
+        title="Go to Posts Screen"
+        onPress={() => props.navigation.navigate("Posts")}
+      />
+      <Button
+        style={styles.btn}
+        title="Go to Users Screen"
+        onPress={() => props.navigation.navigate("Users")}
+      />
     </View>
   );
 };
