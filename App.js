@@ -17,16 +17,14 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
-        <Stack.Screen
-          name="Excercise"
-          component={ExcerciseScreen}
-        ></Stack.Screen>
+        <Stack.Screen name="Excercise" component={ExcerciseScreen} ></Stack.Screen>
         <Stack.Screen name="Home" component={MenuScreen}></Stack.Screen>
         <Stack.Screen name="Students" component={StudentsScreen} />
         <Stack.Screen name="Box" component={BoxScreen} />
         <Stack.Screen name="Box2" component={BoxScreen2} />
         <Stack.Screen name="Posts" component={PostsScreen} />
         <Stack.Screen name="Users" component={UsersScreen} />
+        <Stack.Screen name="Albums" component={AlbumsScreen} />
 
 
       </Stack.Navigator>
