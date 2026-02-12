@@ -41,6 +41,11 @@ const MenuScreen = (props) => {
         title="Go to Albums Screen"
         onPress={() => props.navigation.navigate("Albums")}
       />
+       <Button
+        style={styles.btn}
+        title="Go to Countries Screen"
+        onPress={() => props.navigation.navigate("Countries")}
+      />
     </View>
   );
 };

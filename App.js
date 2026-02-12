@@ -25,6 +25,7 @@ export default function App() {
         <Stack.Screen name="Posts" component={PostsScreen} />
         <Stack.Screen name="Users" component={UsersScreen} />
         <Stack.Screen name="Albums" component={AlbumsScreen} />
+        <Stack.Screen name="Countries" component={CountriesScreen} />
 
 
       </Stack.Navigator>
